@@ -27,4 +27,5 @@ urlpatterns = [
     path('blog/<int:blog_id>/edit/', blog.views.edit, name="edit"),
     path('blog/<int:blog_id>/update/', blog.views.update, name="update"),
     path('blog/portfolio/', blog.views.portfolio, name="portfolio"),
+    path('blog/soundcloud', blog.views.soundcloud, name="soundcloud")
 ]

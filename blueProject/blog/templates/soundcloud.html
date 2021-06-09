@@ -1,0 +1,44 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>css 과제</title>
+	<link rel="stylesheet" href="{% static 'css/soundcloud.css' %}" type="text/css">
+</head>
+<body>
+	<header>
+		<div class="header-inner">
+			<div class="header-left">
+				<a class="soundcloud-logo" href="/"></a>
+				<nav class="header-tabs">
+					<ul>
+						<li class="selected-tab header-tab">Home</li>
+						<li class="header-tab">Stream</li>
+						<li class="header-tab">Library</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="searchbar">
+				<form action="" class="headerSearch">
+					<input class="search-input" type="search" placeholder="Search for artists, bands, tracks, podcasts">
+					<button class="search-submit-btn" type="submit">Search</button>
+				</form>
+			</div>
+			<div class="header-right">
+				<div class="login-menu">
+					<button class="login sc-button" type="button">Sign in</button>
+					<button class="account sc-button" type="button">Create account</button>
+				</div>
+				<div class="upload-menu">
+					<a class="upload" href="#">Upload</a>
+				</div>
+				<a class="more" href=""></a>
+			</div>
+		</div>
+	</header>
+</body>
+</html>

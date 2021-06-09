@@ -40,3 +40,6 @@ def update(request, blog_id):
 
 def portfolio(request):
     return render(request, 'portfolio.html')
+
+def soundcloud(request):
+    return render(request, 'soundcloud.html')
